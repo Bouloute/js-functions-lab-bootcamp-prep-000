@@ -5,9 +5,13 @@ function happyHolidays(){
 
 
 function happyHolidaysTo(name){
-  return("Happy holidays," + ${name} + "!")
+  String text = 'Happy holidays, ${name}!'
+  return(text)
 }
 
+function sayHelloTo(firstName) {
+  console.log(`Hello, ${firstName}!`)
+}
 
 function happyHolidayTo(holiday, name){
   return("Happy ${holiday}, ${name}!")
