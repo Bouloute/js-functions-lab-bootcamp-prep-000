@@ -5,7 +5,7 @@ function happyHolidays(){
 
 
 function happyHolidaysTo(name){
-  String text = 'Happy holidays, ${name}!'
+  var text = 'Happy holidays, ${name}!'
   return(text)
 }
 
